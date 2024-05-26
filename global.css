@@ -1,0 +1,19 @@
+:root {
+    --color-nav: #F8D571;
+    --color-line: #C1AD76;
+    --color-btn: #30A7B7;
+    --color-body:  #FFFFFF;
+    --color-font: #353B39;
+    --colorbg-feedback: #F9FAFC;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+body{
+    background-color: #bbeaf083;
+}

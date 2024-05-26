@@ -1,0 +1,102 @@
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70vw;
+    margin: 0 auto;
+    height: 100vh;
+ 
+    
+   
+}
+
+.hero h2{
+    color: var(--color-font);
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 50px;
+}
+.hero span{
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+.hero .img{
+   transform: translateY(-5%);
+   max-width: 40%;
+   object-fit: cover;
+}
+
+.service{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  
+}
+
+.service div{
+    background-color: var(--color-body);
+    color: var(--color-font);
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 0 0 10px #00000093;
+    padding: 1rem;
+    border-radius: 5px;
+    transform: translateY(-60%);
+  
+}
+.data p{
+    padding-bottom: 12px;
+}
+#inputDateNow{
+   padding: 5px;
+    font-size: 1.2rem;
+    color: green;
+}
+
+.service button{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+ 
+}
+
+
+.service select{
+    font-size: 1.2rem;
+    color: var(--color-font);
+    padding: 5px;
+    margin-top: 1rem;
+    
+}
+
+@media screen and (max-width: 850px) {
+    .service div{
+        background-color: var(--color-body);
+        color: var(--color-font);
+        font-size: 1.2rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        box-shadow: 0 0 10px #00000093;
+        padding: 1rem;
+        border-radius: 5px;
+        transform: translateY(-10%);
+    }
+
+    .hero h2{
+        color: var(--color-font);
+        font-size: 1.5rem;
+        font-weight: 500;
+        line-height: 50px;
+       
+    }
+    .hero span{
+        font-size: 1.7rem;
+        font-weight: bold;
+    }
+}
+
+

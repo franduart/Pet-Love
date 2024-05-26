@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="hero.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="cards.css">
+    <link rel="stylesheet" href="feedbacks.css">
+    <link rel="stylesheet" href="footer.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Pet Love</title>
+</head>
+<body>
+    <nav>
+        <section class="nav-content">
+            <div class="navFixed">
+        <div><h1>Pet Love <i class="fa-solid fa-paw"></i></h1></div>
+
+        <div class="nav-itens">
+            <ul>
+                <li><a href="#"></a>Home</li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#feedbacks">Feedbacks</a></li>
+                <li><a href="#contato">Contatos</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Sobre</a></li>
+               
+            </ul>
+        </div>
+    </div>
+      
+    <section class="hero">
+        <div>
+            <h2>A melhor ajuda para <br>
+               <span> seu melhor amigo</span></h2>
+        </div>
+        <div class="img">
+            <img src="assets/baixados-removebg-preview.png" alt="Golden">
+        </div>
+    </section>
+    </nav>
+
+
+<section class="service">
+    <div>
+        <p>Selecione o Pet</p>
+                    
+    <select id="pet">
+        <option value="">Selecionar..</option>
+        <option value="Golden">Golden</option>
+        <option value="Pintcher">Pintcher</option>
+        <option value="Maltês">Maltês</option>
+        <option value="Buldog">Buldogue</option>
+        <option value="Shih Tzu">Shih Tzu</option>
+        <option value="Yorkshire Terrier">Yorkshire Terrier.</option>
+    </select>
+    </div>
+
+    <div class="data">
+        <p>Marcar Data e Horário</p>
+        <input type="datetime-local" id="inputDateNow" value="data" >
+    </div>
+
+    <div>
+        <p>selecionar Serviços</p>
+        <select id="servico">
+            <option value="">Selecionar..</option>
+            <option value="tosa">Tosa Higiênica</option>
+            <option value="Tosa Completa">Tosa Completa</option>
+            <option value="Consulta">Consulta</option>
+            <option value="Medicacao">Medicação</option>
+            <option value="Vacina">Vacina</option>
+            <option value="Banho">Banho</option>
+        </select>
+    </div>
+    <div style="background-color: var(--color-btn)" class="btn">
+        <button value="marcar" id="marcar" onclick="btn()">MARCAR <i class="fa-solid fa-paw"></i></button>
+    </div>
+</section>
+</section>
+    <main style="width: 70vw; margin: 0 auto;">
+        
+        <section class="servicos-oferecidos" id="servicos">
+             <h2>Nossos Serviços</h2>
+
+             <div class="cards">
+                <div>
+                    <i class="fa-solid fa-suitcase-medical"></i>
+                   <h3>Admistração de Medicação</h3>
+                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut 
+                    nam consequatur corrupti dolorum, amet quae</p>
+                    <a href="#">Ver Mais</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-heart-pulse"></i>
+                   <h3>Cardiologia</h3>
+                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut 
+                    nam consequatur corrupti dolorum, amet quae</p>
+                    <a href="#">Ver Mais</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-syringe"></i>
+                   <h3>Vacinação</h3>
+                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut 
+                    nam consequatur corrupti dolorum, amet quae</p>
+                    <a href="#">Ver Mais</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-bath"></i>
+                   <h3>Banho e Tosa</h3>
+                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut 
+                    nam consequatur corrupti dolorum, amet quae</p>
+                    <a href="#">Ver Mais</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-scale-balanced"></i>
+                   <h3>Nutrição Balanceada para seu pet</h3>
+                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut 
+                    nam consequatur corrupti dolorum, amet quae</p>
+                    <a href="#">Ver Mais</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-dog"></i>
+                   <h3>Atividades de Recreação</h3>
+                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut 
+                    nam consequatur corrupti dolorum, amet quae</p>
+                    <a href="#">Ver Mais</a>
+                </div>
+   
+             </div>
+        </section>
+
+        <section class="promisse">
+            <img src="assets/Pets__Tabby_kitten_rubbing_against_cute_Yellow_Labrador_puppy-removebg-preview (1).png" alt="">
+            
+            <div>
+                <h3> Juramento Veterinário</h3>
+                <p>
+                    “
+                    Sob a proteção de Deus PROMETO que, no exercício da Medicina Veterinária, cumprirei os dispositivos legais e normativos, com especial atenção ao Código de Ética,
+                    sempre buscando uma harmonização perfeita entre ciência e arte, para tanto aplicando os conhecimentos científicos e técnicos em benefício da prevenção e cura de doenças animais, tendo como objetivo o Homem.
+                </p>
+
+                    <p>E prometo tudo isso fazer, com o máximo respeito à ordem pública e aos bons costumes, mantendo o mais estrito segredo profissional das informações de qualquer ordem, que, como profissional tenha eu visto, ouvido ou lido, em qualquer circunstância em que esteja exercendo a profissão. Assim o prometo.„
+                    </p>
+            </div>
+        </section>
+        
+        <section class="slider" style="width: 70%; margin: 0 auto; height: 70vh; margin-bottom: 3rem;" id="feedbacks">
+            <input name='slide' type="radio" checked>
+            <input name='slide' type="radio" >
+            <input name='slide' type="radio">
+            <input name='slide' type="radio">
+        
+            <div class="slider-content">
+                <div class="slider-item"><img src="assets/1.png"></div>
+                <div class="slider-item"><img src="assets/2.png"></div>
+                <div class="slider-item"><img src="assets/3.png"></div>
+                <div class="slider-item"><img src="assets/4.png"></div>
+            </div>
+        </section>
+
+        <section class="localizacao">
+            <div class="circle"></div>
+
+            <div>
+                
+            <img src="assets/vet.png" alt="">
+            </div>
+            <div>
+                <h3>Onde Estamos?</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14642.72515604576!2d-45.08498881367553!3d-23.43587747448287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cd51894545bb29%3A0xc3bc36a1548bd4d7!2sCentro%2C%20Ubatuba%20-%20SP%2C%2011680-000!5e0!3m2!1spt-BR!2sbr!4v1716680060161!5m2!1spt-BR!2sbr" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            
+        </section>
+        
+    </main>
+
+    <footer>
+        <img src="assets/dogs.png" alt="imagem de cachorros">
+        <div  class="footer" id="contato">
+        <div>
+            <h4>Pet Love <i class="fa-solid fa-paw"></i></h4>
+            <p>A melhor escolha para seu melhor amigo</p>
+        </div>
+
+        <div>
+            <h4>Contatos</h4>
+            <a href="">Istagram</a>
+            <a href="">WhatsApp</a>
+            <a href="">Facebook</a>
+        </div>
+
+        <div>
+            <h4>Horário de Atendimento <i class="fa-solid fa-paw"></i></h4>
+            <p>6h até 00h</p>
+        </div>
+    </div>
+    </footer>
+    <script src="petlov.js"></script>
+</body>
+</html>
