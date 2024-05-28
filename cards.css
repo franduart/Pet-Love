@@ -73,6 +73,7 @@
     border-radius: 10px;
     position: relative;
     overflow: hidden;
+    height: 100vh;
    
 }
 .localizacao h3{
@@ -93,4 +94,67 @@
     position: absolute;
     transform: translateX(-60%) translateY(40%);
     z-index: 1;
+}
+
+@media screen and (max-width: 864px) {
+    main{
+        min-width: 90vw;
+        margin: 0 auto;
+    }
+    .cards{
+        width: 50vw;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    .cards div{
+        width: 100%;
+    }
+    .promisse{
+        background-color: var(--color-nav);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 1.2rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        line-height: 1.5rem;
+        padding: 10px;
+        border-radius: 5px;
+        min-height: 60vh;
+        margin: 1rem auto;
+        width: 100%;
+    }
+    .localizacao{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--color-nav);
+        border-radius: 10px;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+      
+      
+       
+    }
+    .localizacao img{
+        width: 90vw;
+        object-fit: cover;
+    }
+
+    .localizacao div{
+        z-index: 2;
+    }
+    .localizacao iframe{
+        width: 90vw;
+        height: 500px;
+        object-fit: cover;
+    }
+  
 }

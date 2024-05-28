@@ -1,16 +1,17 @@
 
 
 let pet = document.getElementById('pet')
-let horaData = document.getElementById('inputDateNow')
+let horaData = document.getElementById('meeting-time')
 let select = document.getElementById('servico');
+
 
 pet.addEventListener('change', function(){
     (pet.value + horaData.value)
 })
 
 
-
-btn.addEventListener('change', function(){
+let marcar = document.getElementById("marcar");
+marcar.addEventListener('change', function(){
     (select.value) 
    })
 
@@ -30,7 +31,25 @@ function getDateNow() {
 }
 
 document.addEventListener('DOMContentLoaded', (event) => {
-    document.getElementById('inputDateNow').value = getDateNow();
+    document.getElementById('meeting-time').value = getDateNow();
 });
+
+
+
+let menu = document.querySelector(".menu");
+let botao = document.getElementById("botao");
+
+botao.addEventListener("click", function(event) {
+   menu.style.display = "flex";
+   botao.style.display = "none";
+   
+} )
+
+let fechar = document.getElementById("fechar");
+
+fechar.addEventListener("click", function(event){
+    menu.style.display = "none";
+    botao.style.display = "flex";
+})
 
 

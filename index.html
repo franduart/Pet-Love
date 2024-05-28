@@ -14,23 +14,33 @@
     <title>Pet Love</title>
 </head>
 <body>
-    <nav>
-        <section class="nav-content">
-            <div class="navFixed">
-        <div><h1>Pet Love <i class="fa-solid fa-paw"></i></h1></div>
 
-        <div class="nav-itens">
-            <ul>
-                <li><a href="#"></a>Home</li>
-                <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#feedbacks">Feedbacks</a></li>
-                <li><a href="#contato">Contatos</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Sobre</a></li>
-               
-            </ul>
-        </div>
-    </div>
+    <header class="nav">
+    <nav >
+    <h1>Pet Love <i class="fa-solid fa-paw"></i></h1>
+    
+
+    <ul class="menuMobile">
+        <li><a href="#">Home</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#feedbacks">Feedbacks</a></li>
+        <li><a href="#contato">Contatos</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Sobre</a></li> 
+    </ul>  
+    <button id="botao" class="botao">Menu</button>
+</nav>
+
+<ul class="menu">
+    <h1 style="color: #fff; padding-left: 1rem;">Pet Love <i class="fa-solid fa-paw"></i></h1>
+    <button id="fechar">FECHAR</button>
+    <li><a href="#">Home</a></li>
+    <li><a href="#servicos">Serviços</a></li>
+    <li><a href="#feedbacks">Feedbacks</a></li>
+    <li><a href="#contato">Contatos</a></li>
+    <li><a href="#">Blog</a></li>
+    <li><a href="#">Sobre</a></li> 
+</ul>  
       
     <section class="hero">
         <div>
@@ -41,8 +51,8 @@
             <img src="assets/baixados-removebg-preview.png" alt="Golden">
         </div>
     </section>
-    </nav>
-
+    
+</header>
 
 <section class="service">
     <div>
@@ -61,7 +71,14 @@
 
     <div class="data">
         <p>Marcar Data e Horário</p>
-        <input type="datetime-local" id="inputDateNow" value="data" >
+        <input
+            type="datetime-local"
+            id="meeting-time"
+            name="meeting-time"
+            value="2024-05-26T23:27"
+            min="2024-05-07T00:00"
+            max="2050-12-31T00:00" />
+
     </div>
 
     <div>
@@ -154,7 +171,7 @@
             </div>
         </section>
         
-        <section class="slider" style="width: 70%; margin: 0 auto; height: 70vh; margin-bottom: 3rem;" id="feedbacks">
+        <section class="slider" style="width: 80%; margin: 0 auto; height: 70vh; margin-bottom: 3rem;" id="feedbacks">
             <input name='slide' type="radio" checked>
             <input name='slide' type="radio" >
             <input name='slide' type="radio">
@@ -183,13 +200,15 @@
         </section>
         
     </main>
-
+    
     <footer>
-        <img src="assets/dogs.png" alt="imagem de cachorros">
+       
         <div  class="footer" id="contato">
         <div>
+
             <h4>Pet Love <i class="fa-solid fa-paw"></i></h4>
             <p>A melhor escolha para seu melhor amigo</p>
+            
         </div>
 
         <div>
