@@ -46,3 +46,25 @@
     width: 100%;
 }
 }
+
+@media screen and (max-width: 664px) {
+   .localizacao{
+    width: 600px;
+    transform: translateX(-20%);
+    padding: 2rem 0;
+
+   }
+   .localizacao img{
+    width: 600px;
+   }
+   .localizacao iframe{
+    width: 500px;
+    height: 350px;
+    border-radius: 10px;
+    margin-top: 1rem;
+    object-fit: cover;
+   }
+  .nav{
+    font-size: 2rem;
+  }
+  }

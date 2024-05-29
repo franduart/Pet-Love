@@ -16,7 +16,13 @@ marcar.addEventListener('change', function(){
    })
 
 function btn(){
-    let mensagem = alert(`Sua consulta foi marcada com sucesso! Raça: ` + pet.value + " " + `Serviço: ` + " "  + select.value + " " + horaData.value);
+    let mensagem = alert(`Sua consulta foi marcada com sucesso! Raça: ` + pet.value + " " + `Serviço: ` + " "  + 
+    select.value + " " + horaData.value);
+
+    const message = encodeURIComponent("Quero agendar consulta para: ")
+    const phone = "12992025492"
+    window.open(`https://wa.me/${phone}?text=${message} Raça: ${pet.value} Serviço: ${select.value} Data e Hora: ${horaData.value}` , "_blank");
+
 }
 
 

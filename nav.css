@@ -48,7 +48,6 @@
         overflow-x: hidden;
     }
 
-   
     .menuMobile a{
         text-align: center;
         text-decoration: none;
@@ -87,7 +86,7 @@
     .menu {
         display: none;
         flex-direction: column;
-        width: 100vw;
+        width: 100%;
         align-self: center;
         justify-content: space-around;
         height: 60vh;
@@ -136,4 +135,34 @@
         font-weight: bold;
     }
     
+}
+
+@media screen and (max-width: 664px) {
+    body{
+        overflow-x: hidden;
+        width: 100%;
+    }
+     .cards div{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+   }
+    .nav nav{
+        width: 100%;
+        padding: 2rem 0;
+    }
+
+    .menu{
+        font-size: 2rem;
+        height: auto;
+        padding: 1rem 0;
+    }
+    #fechar{
+        font-size: 2rem;
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+    .menu a{
+        font-size: 2rem;
+    }
 }

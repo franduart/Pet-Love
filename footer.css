@@ -35,6 +35,14 @@ footer{
 .dog{
     transform: translateY(43%);
 }
+.footer a{
+    text-align: left;
+}
+
+.footer i{
+    color: #000;
+    padding-right: 10px;
+}
 
 @media screen and (max-width: 864px) {
     .footer{
@@ -42,3 +50,12 @@ footer{
         padding: 1rem;
     }
 }
+@media screen and (max-width: 668px) {
+    .footer{
+        font-size: 1rem;
+        padding: 1rem;
+        width: 100%;
+        padding: 2rem 0;
+    }
+}
+
