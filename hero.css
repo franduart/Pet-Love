@@ -5,7 +5,6 @@
     justify-content: center;
     width: 70%;
     margin: 0 auto;
-    height: 90vh;
     padding-top: 1rem;
 
  
@@ -23,7 +22,7 @@
 }
 .hero .img{
    transform: translateY(-5%);
-   max-width: 30%;
+   max-width: 200px;
    object-fit: cover;
 }
 
