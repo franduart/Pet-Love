@@ -22,7 +22,7 @@
 }
 .hero .img{
    transform: translateY(-5%);
-   max-width: 30%;
+   max-width: 300px;
    object-fit: cover;
 }
 
