@@ -138,6 +138,13 @@
         gap: 1rem;
         
       }
+
+      .hero .img{
+        transform: translatey(-10%);
+        transform: translateX(-50%);
+        max-width: 300px;
+        object-fit: cover;
+     }
 }
 
 
