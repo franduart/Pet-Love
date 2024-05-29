@@ -49,13 +49,16 @@
 
 @media screen and (max-width: 664px) {
    .localizacao{
-    width: 600px;
-    transform: translateX(-20%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
     padding: 2rem 0;
+    
 
    }
    .localizacao img{
-    width: 600px;
+    width: 300px;
    }
    .localizacao iframe{
     width: 500px;

@@ -7,7 +7,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-shadow: 0 0 10px #00000083;
     margin: 0 auto;
-    width: 100vw;
+    width: 100%;
    
     
 }
@@ -30,11 +30,9 @@ footer{
     justify-content: center;
     margin-top: 2rem;
     text-align: center;
-   width: 100%;
+    width: 100%;
 }
-.dog{
-    transform: translateY(43%);
-}
+
 .footer a{
     text-align: left;
 }
